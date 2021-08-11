@@ -1,0 +1,70 @@
+.header-form{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 1em;
+}
+.header-form img{
+    animation: bounce; 
+    animation-duration: 2s; 
+}
+.header-form h1{
+    margin: 0;
+}
+.form{
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.form-personal-data{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+.form-input{
+    margin: 1em 0em;
+    padding: 0.5em;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: rgba(15, 2, 32, 0.678);
+    font-family: 'Roboto', sans-serif;
+}
+.form-textarea{
+    min-height: 150px;
+    max-width: 100%;
+    resize: none;
+    color: rgba(15, 2, 32, 0.678);
+    font-family: 'Roboto', sans-serif;
+}
+.form-div-button{
+    padding-top: 1.5em;
+    text-align: center;
+    animation: backInLeft; 
+    animation-duration: 2s; 
+}
+.form-button{
+    width: 25%;
+    padding: 0.8em;
+    border: none;
+    border-radius: 10px;
+    background-color:rgba(82, 36, 143, 0.678);
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+}
+.form-input:hover, .form-textarea:hover{
+    background-color:rgba(171, 57, 246, 0.109);
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.form-button:hover{
+    background-color:rgba(128, 67, 207, 0.219);
+}
+
+@media (min-width: 0px) and (max-width:1200px){
+    .form-personal-data{
+        grid-template-columns: 100%;
+    }
+    .form-button{
+        width: 50%;
+    }
+}
