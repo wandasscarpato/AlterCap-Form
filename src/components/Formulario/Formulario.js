@@ -40,7 +40,7 @@ const Formulario = () => {
   return (
     <Fragment>
       <div className="header-form">
-        <img src={logo}/>
+        <img src={logo} alt="logo"/>
         <h1>¡Bienvenido!</h1>
         <p>Por favor complete el formulario con sus datos.</p>
       </div>
